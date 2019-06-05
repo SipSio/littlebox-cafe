@@ -1,0 +1,62 @@
+@font-face{
+	src:url(font1.ttf);
+	font-family: RCL;
+}
+.header{
+	height: 100px;
+}
+.banner{
+	height: 500px;
+	background-image:url(img.12.jpg);
+	background-size:100% 100%;
+}
+.menu{
+	height: 650px;
+}
+.footer{
+	height: 100px;
+}
+.block{
+	height: 250px;
+	width: 250px;
+	margin-left:30px;
+	margin-top: 50px;
+}
+.flex{
+	display:flex;
+}
+.auto{
+	margin-left:auto;
+	margin-top:auto;
+}
+.info_img1{
+	height: 100px;
+	width: 100px;
+	transition: 0.5s;
+}
+.info_img1:hover{
+	margin-left:200px;
+}
+.info_img2{
+	height: 200px;
+	width: 200px;
+	transition: 0.5s;
+	margin-left: 25px
+}
+.info_img2:hover{
+	transform: scale(1.5);
+}
+h1{
+	color:white;
+	font-family: RCL;
+	font-size: 100px;
+	text-align: center;
+	padding-top: 100px;
+	margin-top:0px;
+}
+h3:hover{
+	color:brown;
+}
+h3 {
+	font-family: RCL;
+}
